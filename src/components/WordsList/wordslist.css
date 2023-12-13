@@ -1,0 +1,33 @@
+table {
+    width: 97%;
+    background-color: #fff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #eee;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.addword-button {
+    font-family: 'Amatic SC', sans-serif;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    font-size: x-large;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
