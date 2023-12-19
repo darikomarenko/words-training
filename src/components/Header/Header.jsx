@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.png';
 import './header.css';
 
-function Header() {
+export default function Header() {
     return (
     <header className="header-container">
         <img className="header-logo" src={logo} alt="Логотип приложения"/>
@@ -17,5 +17,3 @@ function Header() {
     </header>
     );
 };
-
-export default Header;
